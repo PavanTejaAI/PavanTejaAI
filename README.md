@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:374151,100:4B5563&height=220&section=header&text=Pavan%20Teja%20Saikam&fontSize=44&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20Retrieval%20%7C%20Inference%20%7C%20Systems&descAlignY=59&descSize=17"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:06B6D4,100:06B6D4&height=220&section=header&text=Pavan%20Teja%20Saikam&fontSize=44&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20Retrieval%20%7C%20Inference%20%7C%20Systems&descAlignY=59&descSize=17"
     width="100%"
     alt="Pavan Teja Saikam"
   />
@@ -8,7 +8,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1300&color=111827&center=true&vCenter=true&width=920&height=45&lines=Building+production-grade+AI+systems;Agentic+AI+%7C+RAG+%7C+Vector+Search;LLM+Inference+%7C+Model+Serving;Computer+Vision+%7C+Voice+AI;On-device+AI+%7C+Efficient+Systems"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1300&color=06B6D4&center=true&vCenter=true&width=920&height=45&lines=Building+production-grade+AI+systems;Agentic+AI+%7C+RAG+%7C+Vector+Search;LLM+Inference+%7C+Model+Serving;Computer+Vision+%7C+Voice+AI;On-device+AI+%7C+Efficient+Systems"
     alt="AI engineering focus"
   />
 </p>
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PavanTejaAI&label=Profile%20Views&color=111827&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=PavanTejaAI&label=Profile%20Views&color=06B6D4&style=flat-square" alt="Profile views" />
 </p>
 
 ---
@@ -566,7 +566,7 @@ That is the class of problems I want to keep solving.
 
 <p align="left">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=PavanTejaAI&show_icons=true&hide_border=true&theme=transparent&title_color=111827&icon_color=374151&text_color=D4D4D8&bg_color=00000000"
+    src="https://github-readme-stats.vercel.app/api?username=PavanTejaAI&show_icons=true&theme=default&title_color=06B6D4&icon_color=06B6D4&text_color=E2E8F0&bg_color=00000000&hide_border=true"
     height="170"
     alt="GitHub statistics"
   />
@@ -574,7 +574,7 @@ That is the class of problems I want to keep solving.
 
 <p align="left">
   <img
-    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=transparent&hide_border=true&background=00000000&stroke=111827&ring=9CA3AF&fire=111827&currStreakLabel=111827&sideLabels=D4D4D8&currStreakNum=D4D4D8&dates=D4D4D8"
+    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=default&background=00000000&stroke=0EA5E9&ring=06B6D4&fire=0EA5E9&currStreakLabel=0EA5E9&sideLabels=E2E8F0&currStreakNum=FFFFFF&dates=E2E8F0&hide_border=true"
     height="170"
     alt="GitHub streak"
   />
@@ -621,7 +621,7 @@ That is the class of problems I want to keep solving.
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:374151,100:4B5563&height=120&section=footer"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:06B6D4,100:06B6D4&height=120&section=footer"
     width="100%"
     alt=""
   />
