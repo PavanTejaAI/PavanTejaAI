@@ -574,7 +574,7 @@ That is the class of problems I want to keep solving.
 
 <p align="left">
   <img
-    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=default&background=00000000&stroke=0EA5E9&ring=06B6D4&fire=0EA5E9&currStreakLabel=0EA5E9&sideLabels=E2E8F0&currStreakNum=FFFFFF&dates=E2E8F0&hide_border=true"
+    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=transparent&background=00000000&stroke=0EA5E9&ring=06B6D4&fire=0EA5E9&currStreakLabel=0EA5E9&sideLabels=334155&currStreakNum=111827&dates=334155&hide_border=true"
     height="170"
     alt="GitHub streak"
   />
