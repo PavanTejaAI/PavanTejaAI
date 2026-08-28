@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:080B14,45:312E81,100:7C3AED&height=220&section=header&text=Pavan%20Teja%20Saikam&fontSize=44&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20Retrieval%20%7C%20Inference%20%7C%20Systems&descAlignY=59&descSize=17"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:374151,100:4B5563&height=220&section=header&text=Pavan%20Teja%20Saikam&fontSize=44&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20Retrieval%20%7C%20Inference%20%7C%20Systems&descAlignY=59&descSize=17"
     width="100%"
     alt="Pavan Teja Saikam"
   />
@@ -8,7 +8,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1300&color=A78BFA&center=true&vCenter=true&width=920&height=45&lines=Building+production-grade+AI+systems;Agentic+AI+%7C+RAG+%7C+Vector+Search;LLM+Inference+%7C+Model+Serving;Computer+Vision+%7C+Voice+AI;On-device+AI+%7C+Efficient+Systems"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1300&color=111827&center=true&vCenter=true&width=920&height=45&lines=Building+production-grade+AI+systems;Agentic+AI+%7C+RAG+%7C+Vector+Search;LLM+Inference+%7C+Model+Serving;Computer+Vision+%7C+Voice+AI;On-device+AI+%7C+Efficient+Systems"
     alt="AI engineering focus"
   />
 </p>
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PavanTejaAI&label=Profile%20Views&color=7C3AED&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=PavanTejaAI&label=Profile%20Views&color=111827&style=flat-square" alt="Profile views" />
 </p>
 
 ---
@@ -76,387 +76,6 @@ My engineering focus is:
 
 ---
 
-# Impact
-
-<p align="left">
-  <img src="https://img.shields.io/badge/9%2B-Specialized%20Agents-7C3AED?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/50K%2B-Documents%20Retrieved-5B21B6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/100K%2B-Documents%20Processed-312E81?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/200K%2B-Images%2FDay-1E1B4B?style=for-the-badge" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/~95%25-Agent%20Platform%20Evaluation-6D28D9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/~98%25-Browser%20Agent%20Evaluation-4C1D95?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/250--300%20RPS-Embedding%20Inference-312E81?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%3C500ms-Retrieval%20Latency-7C3AED?style=for-the-badge" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/~40%25-Lower%20Latency-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/~30%25-Lower%20Cost-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/~9.8x-Retrieval%20Acceleration-111827?style=for-the-badge" />
-</p>
-
-<sub>Metrics reflect reported project benchmarks and evaluations.</sub>
-
----
-
-# Production Systems
-
-## Agentic AI Platform
-
-Built a multi-agent AI platform using **LangChain, LangGraph, FastAPI, AWS ECS, Lambda, SQS and WebSockets**.
-
-The system separates orchestration from execution, enabling specialized agents to work in parallel through event-driven infrastructure.
-
-```mermaid
-flowchart LR
-    U[User] --> API[FastAPI]
-    API --> G[LangGraph]
-
-    G --> A1[Agent 1]
-    G --> A2[Agent 2]
-    G --> A3[Agent 3]
-    G --> A4[Agent 4]
-    G --> AN[Agent 9]
-
-    A1 --> Q[SQS]
-    A2 --> Q
-    A3 --> Q
-    A4 --> Q
-    AN --> Q
-
-    Q --> L[Lambda]
-    L --> ECS[AWS ECS]
-
-    ECS --> R[Results]
-    R --> WS[WebSocket]
-    WS --> U
-```
-
-### Engineering
-
-`LangGraph` `LangChain` `FastAPI` `SQS` `Lambda` `ECS` `WebSockets`
-
-**9 specialized agents**
-
-**Parallel task execution**
-
-**Event-driven execution**
-
-**Asynchronous workers**
-
-**WebSocket streaming**
-
-**128K+ token summarization**
-
-### Result
-
-**15+ parallel WebSocket tasks**
-
-**Approximately 95% evaluation accuracy**
-
----
-
-## CodeAct Browser Agent
-
-Built a privacy-focused browser agent runtime using **CodeAct, MCP, Node.js and Chrome DevTools Protocol**.
-
-```mermaid
-flowchart LR
-    U[User] --> A[Agent Runtime]
-    A --> P[Planner]
-
-    P --> T[Capability-Gated Tools]
-    T --> B[Browser]
-
-    B --> CDP[Chrome DevTools Protocol]
-    CDP --> AX[Accessibility Tree]
-
-    AX --> C[Context Compression]
-    C --> P
-```
-
-### Engineering
-
-**95 capability-gated MCP tools**
-
-**BYOK support**
-
-**Browser state through accessibility trees**
-
-**Compressed agent context**
-
-**Capability-based tool execution**
-
-**Privacy-focused execution**
-
-### Result
-
-**Approximately 98% evaluation score**
-
----
-
-## Vespa Hybrid RAG
-
-Designed and operated a **Vespa-based hybrid retrieval platform** for large document collections.
-
-```mermaid
-flowchart LR
-    Q[Query] --> E[Embedding]
-
-    E --> D[Dense Vector]
-    D --> B[Binary Representation]
-
-    B --> H[Hamming Retrieval]
-    H --> C[Candidate Set]
-
-    C --> R[Float Reranking]
-
-    Q --> BM25[BM25]
-
-    R --> F[RRF Fusion]
-    BM25 --> F
-
-    F --> O[Final Results]
-```
-
-### Retrieval Pipeline
-
-```text
-Query
-  ↓
-Embedding
-  ↓
-768D Vector
-  ↓
-Binary Quantization
-  ↓
-Hamming Retrieval
-  ↓
-Candidate Selection
-  ↓
-Float Reranking
-  ↓
-BM25 + Dense Retrieval
-  ↓
-RRF Fusion
-  ↓
-Final Ranking
-```
-
-### Engineering
-
-**50K+ documents**
-
-**768-dimensional embeddings**
-
-**Binary compression**
-
-**Hamming retrieval**
-
-**Float reranking**
-
-**BM25**
-
-**Dense retrieval**
-
-**RRF fusion**
-
-**Metadata filtering**
-
-**Retrieval evaluation**
-
-### Result
-
-**Sub-500 ms retrieval latency**
-
----
-
-## Graph-backed AI Memory
-
-Built an **8-stage AI memory pipeline** that transforms user activity into a typed knowledge graph.
-
-```mermaid
-flowchart LR
-    I[User Activity] --> L[LLM Processing]
-
-    L --> E[Entity Extraction]
-    E --> R[Relationship Extraction]
-    R --> G[Typed Knowledge Graph]
-
-    G --> F[FalkorDB]
-
-    Q[User Query] --> H[HNSW Retrieval]
-    H --> F
-
-    F --> C[Cypher]
-    C --> MCP[MCP Interface]
-    MCP --> A[Agent]
-```
-
-### Engineering
-
-**Entity extraction**
-
-**Relationship extraction**
-
-**Typed graph construction**
-
-**Semantic retrieval**
-
-**HNSW indexing**
-
-**Cypher querying**
-
-**MCP-based memory access**
-
-### Result
-
-**Approximately 9.8x semantic retrieval acceleration**
-
----
-
-## LLM Inference and Model Serving
-
-Worked across **vLLM, Triton Inference Server, ONNX Runtime and GPU infrastructure**.
-
-```mermaid
-flowchart LR
-    R[Request] --> G[Inference Gateway]
-
-    G --> V[vLLM]
-    G --> T[Triton]
-
-    V --> L[Vision LLM]
-    T --> E[Embedding Model]
-
-    L --> GPU[GPU]
-    E --> GPU
-
-    GPU --> O[Response]
-```
-
-### Engineering
-
-**3B vision-language model**
-
-**vLLM serving**
-
-**FP8 KV-cache optimization**
-
-**ONNX Runtime**
-
-**Triton model serving**
-
-**L4 and T4 GPU infrastructure**
-
-### Scale
-
-**100K+ unstructured documents**
-
-**90%+ reported task accuracy**
-
-**250 to 300 requests/sec embedding inference**
-
----
-
-## Computer Vision
-
-Built high-throughput computer vision pipelines using **SCRFD, face embeddings, ONNX, Triton and vector retrieval**.
-
-```mermaid
-flowchart LR
-    I[Image] --> D[SCRFD]
-    D --> A[Alignment]
-    A --> E[Face Embedding]
-
-    E --> V[512D Vector]
-    V --> S[Vector Search]
-
-    S --> M[Similarity Matching]
-    M --> O[Identity / Group]
-```
-
-### Engineering
-
-**SCRFD face detection**
-
-**512-dimensional face embeddings**
-
-**ONNX inference**
-
-**Triton serving**
-
-**Vector search**
-
-**High-throughput processing**
-
-### Scale
-
-**200K+ images/day**
-
----
-
-## Voice AI
-
-Built real-time speech processing pipelines using **Whisper-based transcription and asynchronous processing**.
-
-### Focus
-
-**Speech-to-text**
-
-**Streaming transcription**
-
-**Non-blocking processing**
-
-**Meeting intelligence**
-
-**Local inference**
-
----
-
-## LLM Gateway
-
-Built a multi-provider LLM gateway with routing, streaming and security controls.
-
-```mermaid
-flowchart LR
-    C[Client] --> G[LLM Gateway]
-
-    G --> O[OpenAI]
-    G --> A[Anthropic]
-    G --> GM[Gemini]
-    G --> GR[Groq]
-    G --> P[Provider N]
-
-    G --> S[SSE Streaming]
-    S --> C
-```
-
-### Engineering
-
-**5 model providers**
-
-**Provider routing**
-
-**SSE streaming**
-
-**Deep-walk redaction**
-
-**SSRF-hardened webhooks**
-
-**AES-256-GCM data protection**
-
-### Result
-
-**Approximately 40% lower latency**
-
-**Approximately 30% lower cost**
-
----
-
 # Open Source
 
 ## ⚡ swiftvec
@@ -466,10 +85,10 @@ flowchart LR
     <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" />
   </a>
   <a href="https://pypi.org/project/swiftvec/">
-    <img src="https://img.shields.io/badge/PyPI-Package-7C3AED?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI package" />
+    <img src="https://img.shields.io/badge/PyPI-Package-111827?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI package" />
   </a>
   <a href="https://crates.io/crates/swiftvec-core">
-    <img src="https://img.shields.io/badge/crates.io-Rust%20Crate-312E81?style=for-the-badge&logo=rust&logoColor=white" alt="Rust crate" />
+    <img src="https://img.shields.io/badge/crates.io-Rust%20Crate-374151?style=for-the-badge&logo=rust&logoColor=white" alt="Rust crate" />
   </a>
 </p>
 
@@ -708,10 +327,10 @@ flowchart LR
 
 <p align="left">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-7C3AED?style=flat-square" />
-  <img src="https://img.shields.io/badge/MCP-5B21B6?style=flat-square" />
-  <img src="https://img.shields.io/badge/CodeAct-312E81?style=flat-square" />
-  <img src="https://img.shields.io/badge/Function%20Calling-4C1D95?style=flat-square" />
+  <img src="https://img.shields.io/badge/LangGraph-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/MCP-4B5563?style=flat-square" />
+  <img src="https://img.shields.io/badge/CodeAct-374151?style=flat-square" />
+  <img src="https://img.shields.io/badge/Function%20Calling-075985?style=flat-square" />
 </p>
 
 `LLMs` `RAG` `Agentic AI` `LangChain` `LangGraph` `MCP` `CodeAct` `Function Calling` `Prompt Engineering` `LoRA` `QLoRA`
@@ -724,7 +343,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Vespa-111827?style=flat-square&logo=vespa&logoColor=white" />
   <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
   <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
-  <img src="https://img.shields.io/badge/FalkorDB-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/FalkorDB-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/Weaviate-FF5C5C?style=flat-square" />
   <img src="https://img.shields.io/badge/LanceDB-111827?style=flat-square" />
 </p>
@@ -771,7 +390,7 @@ flowchart LR
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/SCRFD-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/SCRFD-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Whisper-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/LiveKit-111827?style=flat-square&logo=livekit&logoColor=white" />
@@ -947,7 +566,7 @@ That is the class of problems I want to keep solving.
 
 <p align="left">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=PavanTejaAI&show_icons=true&hide_border=true&theme=transparent&title_color=A78BFA&icon_color=8B5CF6&text_color=D4D4D8&bg_color=00000000"
+    src="https://github-readme-stats.vercel.app/api?username=PavanTejaAI&show_icons=true&hide_border=true&theme=transparent&title_color=111827&icon_color=374151&text_color=D4D4D8&bg_color=00000000"
     height="170"
     alt="GitHub statistics"
   />
@@ -955,7 +574,7 @@ That is the class of problems I want to keep solving.
 
 <p align="left">
   <img
-    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=transparent&hide_border=true&background=00000000&stroke=6D28D9&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=D4D4D8&currStreakNum=D4D4D8&dates=D4D4D8"
+    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=transparent&hide_border=true&background=00000000&stroke=111827&ring=9CA3AF&fire=111827&currStreakLabel=111827&sideLabels=D4D4D8&currStreakNum=D4D4D8&dates=D4D4D8"
     height="170"
     alt="GitHub streak"
   />
@@ -967,14 +586,14 @@ That is the class of problems I want to keep solving.
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/snake-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake.svg"
+      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/snake.svg"
     />
     <img
-      src="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake.svg"
+      src="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/snake.svg"
       alt="GitHub contribution snake"
     />
   </picture>
@@ -1002,7 +621,7 @@ That is the class of problems I want to keep solving.
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:312E81,100:080B14&height=120&section=footer"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:374151,100:4B5563&height=120&section=footer"
     width="100%"
     alt=""
   />
