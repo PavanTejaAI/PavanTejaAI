@@ -1,16 +1,1009 @@
-## Hi there 👋
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:080B14,45:312E81,100:7C3AED&height=220&section=header&text=Pavan%20Teja%20Saikam&fontSize=44&fontColor=FFFFFF&fontAlignY=34&animation=fadeIn&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20Retrieval%20%7C%20Inference%20%7C%20Systems&descAlignY=59&descSize=17"
+    width="100%"
+    alt="Pavan Teja Saikam"
+  />
+</p>
 
-<!--
-**PavanTejaAI/PavanTejaAI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1300&color=A78BFA&center=true&vCenter=true&width=920&height=45&lines=Building+production-grade+AI+systems;Agentic+AI+%7C+RAG+%7C+Vector+Search;LLM+Inference+%7C+Model+Serving;Computer+Vision+%7C+Voice+AI;On-device+AI+%7C+Efficient+Systems"
+    alt="AI engineering focus"
+  />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="mailto:07pavanteja@gmail.com">
+    <img src="https://img.shields.io/badge/Email-07pavanteja%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/pavan-teja">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/PavanTejaAI">
+    <img src="https://img.shields.io/badge/GitHub-PavanTejaAI-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=PavanTejaAI&label=Profile%20Views&color=7C3AED&style=flat-square" alt="Profile views" />
+</p>
+
+---
+
+# About
+
+I am an **AI Engineer with 2+ years of experience** building production systems across:
+
+**Agentic AI · RAG · Retrieval Systems · LLM Inference · Computer Vision · Voice AI · Backend Infrastructure · Cloud Systems**
+
+I enjoy working where **AI engineering meets systems engineering**, turning models and research ideas into software that has to perform under real production constraints.
+
+My engineering focus is:
+
+`Latency` · `Throughput` · `Retrieval Quality` · `Memory Efficiency` · `Reliability` · `Security` · `Observability` · `Inference Cost`
+
+> **I build AI systems where intelligence meets engineering.**
+
+---
+
+# What I Build
+
+```text
+                         AI Systems
+                             │
+        ┌────────────────────┼────────────────────┐
+        │                    │                    │
+        ▼                    ▼                    ▼
+    Retrieval             Agents              Inference
+        │                    │                    │
+   Dense Search          Tool Use             GPU Serving
+   Hybrid Search         MCP                   Quantization
+   Graph Search          CodeAct               ONNX
+   Reranking             Multi-Agent           vLLM
+   RAG                   Memory                Triton
+        │                    │                    │
+        └────────────────────┼────────────────────┘
+                             ▼
+                       Production Layer
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+           APIs           Cloud       Observability
+        FastAPI/SSE      AWS/ECS       Metrics/Logs
+        WebSockets       SQS/Lambda     Reliability
+```
+
+---
+
+# Impact
+
+<p align="left">
+  <img src="https://img.shields.io/badge/9%2B-Specialized%20Agents-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/50K%2B-Documents%20Retrieved-5B21B6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/100K%2B-Documents%20Processed-312E81?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/200K%2B-Images%2FDay-1E1B4B?style=for-the-badge" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/~95%25-Agent%20Platform%20Evaluation-6D28D9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/~98%25-Browser%20Agent%20Evaluation-4C1D95?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/250--300%20RPS-Embedding%20Inference-312E81?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%3C500ms-Retrieval%20Latency-7C3AED?style=for-the-badge" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/~40%25-Lower%20Latency-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/~30%25-Lower%20Cost-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/~9.8x-Retrieval%20Acceleration-111827?style=for-the-badge" />
+</p>
+
+<sub>Metrics reflect reported project benchmarks and evaluations.</sub>
+
+---
+
+# Production Systems
+
+## Agentic AI Platform
+
+Built a multi-agent AI platform using **LangChain, LangGraph, FastAPI, AWS ECS, Lambda, SQS and WebSockets**.
+
+The system separates orchestration from execution, enabling specialized agents to work in parallel through event-driven infrastructure.
+
+```mermaid
+flowchart LR
+    U[User] --> API[FastAPI]
+    API --> G[LangGraph]
+
+    G --> A1[Agent 1]
+    G --> A2[Agent 2]
+    G --> A3[Agent 3]
+    G --> A4[Agent 4]
+    G --> AN[Agent 9]
+
+    A1 --> Q[SQS]
+    A2 --> Q
+    A3 --> Q
+    A4 --> Q
+    AN --> Q
+
+    Q --> L[Lambda]
+    L --> ECS[AWS ECS]
+
+    ECS --> R[Results]
+    R --> WS[WebSocket]
+    WS --> U
+```
+
+### Engineering
+
+`LangGraph` `LangChain` `FastAPI` `SQS` `Lambda` `ECS` `WebSockets`
+
+**9 specialized agents**
+
+**Parallel task execution**
+
+**Event-driven execution**
+
+**Asynchronous workers**
+
+**WebSocket streaming**
+
+**128K+ token summarization**
+
+### Result
+
+**15+ parallel WebSocket tasks**
+
+**Approximately 95% evaluation accuracy**
+
+---
+
+## CodeAct Browser Agent
+
+Built a privacy-focused browser agent runtime using **CodeAct, MCP, Node.js and Chrome DevTools Protocol**.
+
+```mermaid
+flowchart LR
+    U[User] --> A[Agent Runtime]
+    A --> P[Planner]
+
+    P --> T[Capability-Gated Tools]
+    T --> B[Browser]
+
+    B --> CDP[Chrome DevTools Protocol]
+    CDP --> AX[Accessibility Tree]
+
+    AX --> C[Context Compression]
+    C --> P
+```
+
+### Engineering
+
+**95 capability-gated MCP tools**
+
+**BYOK support**
+
+**Browser state through accessibility trees**
+
+**Compressed agent context**
+
+**Capability-based tool execution**
+
+**Privacy-focused execution**
+
+### Result
+
+**Approximately 98% evaluation score**
+
+---
+
+## Vespa Hybrid RAG
+
+Designed and operated a **Vespa-based hybrid retrieval platform** for large document collections.
+
+```mermaid
+flowchart LR
+    Q[Query] --> E[Embedding]
+
+    E --> D[Dense Vector]
+    D --> B[Binary Representation]
+
+    B --> H[Hamming Retrieval]
+    H --> C[Candidate Set]
+
+    C --> R[Float Reranking]
+
+    Q --> BM25[BM25]
+
+    R --> F[RRF Fusion]
+    BM25 --> F
+
+    F --> O[Final Results]
+```
+
+### Retrieval Pipeline
+
+```text
+Query
+  ↓
+Embedding
+  ↓
+768D Vector
+  ↓
+Binary Quantization
+  ↓
+Hamming Retrieval
+  ↓
+Candidate Selection
+  ↓
+Float Reranking
+  ↓
+BM25 + Dense Retrieval
+  ↓
+RRF Fusion
+  ↓
+Final Ranking
+```
+
+### Engineering
+
+**50K+ documents**
+
+**768-dimensional embeddings**
+
+**Binary compression**
+
+**Hamming retrieval**
+
+**Float reranking**
+
+**BM25**
+
+**Dense retrieval**
+
+**RRF fusion**
+
+**Metadata filtering**
+
+**Retrieval evaluation**
+
+### Result
+
+**Sub-500 ms retrieval latency**
+
+---
+
+## Graph-backed AI Memory
+
+Built an **8-stage AI memory pipeline** that transforms user activity into a typed knowledge graph.
+
+```mermaid
+flowchart LR
+    I[User Activity] --> L[LLM Processing]
+
+    L --> E[Entity Extraction]
+    E --> R[Relationship Extraction]
+    R --> G[Typed Knowledge Graph]
+
+    G --> F[FalkorDB]
+
+    Q[User Query] --> H[HNSW Retrieval]
+    H --> F
+
+    F --> C[Cypher]
+    C --> MCP[MCP Interface]
+    MCP --> A[Agent]
+```
+
+### Engineering
+
+**Entity extraction**
+
+**Relationship extraction**
+
+**Typed graph construction**
+
+**Semantic retrieval**
+
+**HNSW indexing**
+
+**Cypher querying**
+
+**MCP-based memory access**
+
+### Result
+
+**Approximately 9.8x semantic retrieval acceleration**
+
+---
+
+## LLM Inference and Model Serving
+
+Worked across **vLLM, Triton Inference Server, ONNX Runtime and GPU infrastructure**.
+
+```mermaid
+flowchart LR
+    R[Request] --> G[Inference Gateway]
+
+    G --> V[vLLM]
+    G --> T[Triton]
+
+    V --> L[Vision LLM]
+    T --> E[Embedding Model]
+
+    L --> GPU[GPU]
+    E --> GPU
+
+    GPU --> O[Response]
+```
+
+### Engineering
+
+**3B vision-language model**
+
+**vLLM serving**
+
+**FP8 KV-cache optimization**
+
+**ONNX Runtime**
+
+**Triton model serving**
+
+**L4 and T4 GPU infrastructure**
+
+### Scale
+
+**100K+ unstructured documents**
+
+**90%+ reported task accuracy**
+
+**250 to 300 requests/sec embedding inference**
+
+---
+
+## Computer Vision
+
+Built high-throughput computer vision pipelines using **SCRFD, face embeddings, ONNX, Triton and vector retrieval**.
+
+```mermaid
+flowchart LR
+    I[Image] --> D[SCRFD]
+    D --> A[Alignment]
+    A --> E[Face Embedding]
+
+    E --> V[512D Vector]
+    V --> S[Vector Search]
+
+    S --> M[Similarity Matching]
+    M --> O[Identity / Group]
+```
+
+### Engineering
+
+**SCRFD face detection**
+
+**512-dimensional face embeddings**
+
+**ONNX inference**
+
+**Triton serving**
+
+**Vector search**
+
+**High-throughput processing**
+
+### Scale
+
+**200K+ images/day**
+
+---
+
+## Voice AI
+
+Built real-time speech processing pipelines using **Whisper-based transcription and asynchronous processing**.
+
+### Focus
+
+**Speech-to-text**
+
+**Streaming transcription**
+
+**Non-blocking processing**
+
+**Meeting intelligence**
+
+**Local inference**
+
+---
+
+## LLM Gateway
+
+Built a multi-provider LLM gateway with routing, streaming and security controls.
+
+```mermaid
+flowchart LR
+    C[Client] --> G[LLM Gateway]
+
+    G --> O[OpenAI]
+    G --> A[Anthropic]
+    G --> GM[Gemini]
+    G --> GR[Groq]
+    G --> P[Provider N]
+
+    G --> S[SSE Streaming]
+    S --> C
+```
+
+### Engineering
+
+**5 model providers**
+
+**Provider routing**
+
+**SSE streaming**
+
+**Deep-walk redaction**
+
+**SSRF-hardened webhooks**
+
+**AES-256-GCM data protection**
+
+### Result
+
+**Approximately 40% lower latency**
+
+**Approximately 30% lower cost**
+
+---
+
+# Open Source
+
+## ⚡ swiftvec
+
+<p align="left">
+  <a href="https://github.com/PavanTejaAI/swiftvec">
+    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" />
+  </a>
+  <a href="https://pypi.org/project/swiftvec/">
+    <img src="https://img.shields.io/badge/PyPI-Package-7C3AED?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI package" />
+  </a>
+  <a href="https://crates.io/crates/swiftvec-core">
+    <img src="https://img.shields.io/badge/crates.io-Rust%20Crate-312E81?style=for-the-badge&logo=rust&logoColor=white" alt="Rust crate" />
+  </a>
+</p>
+
+### On-device Vector Search Engine
+
+**Rust · HNSW · SIMD · BM25 · ONNX Runtime · Quantization**
+
+`swiftvec` is a local-first vector search engine designed around **low latency, compact memory usage and offline execution**.
+
+> **Semantic search designed to stay close to the device.**
+
+```mermaid
+flowchart LR
+    Q[Query] --> E[ONNX Embedding]
+    E --> M[Matryoshka Reduction]
+
+    M --> H[HNSW]
+    H --> B[1-bit Search]
+
+    B --> I[Int8 Candidate Retrieval]
+    I --> R[Full Precision Rerank]
+
+    Q --> BM[BM25]
+
+    R --> F[RRF Fusion]
+    BM --> F
+
+    F --> O[Top K]
+```
+
+### Core Design
+
+**Rust search core**
+
+**HNSW implemented from scratch**
+
+**Heuristic neighbor selection**
+
+**AVX2 and FMA SIMD kernels**
+
+**1-bit Hamming search**
+
+**Int8 candidate retrieval**
+
+**Full-precision reranking**
+
+**Matryoshka 768D → 256D**
+
+**BM25 + dense hybrid search**
+
+**RRF fusion**
+
+**Metadata filtering during graph traversal**
+
+**Memory-mapped snapshots**
+
+**Zero-copy loading**
+
+**Quantized ONNX embeddings**
+
+**Python package**
+
+**Rust crate**
+
+**Cross-platform wheels**
+
+### Benchmark
+
+| System       | Hardware     |         P50 |         P99 |      Recall@5 |
+| :----------- | :----------- | ----------: | ----------: | ------------: |
+| **swiftvec** | Intel i5     | **2.54 ms** | **3.31 ms** |     **0.960** |
+| moss         | Apple M4 Pro |      3.1 ms |      5.4 ms | Not published |
+| ChromaDB     | moss setup   |    351.8 ms |    538.5 ms | Not published |
+| Qdrant       | moss setup   |    597.6 ms |    771.4 ms | Not published |
+
+### Benchmark Methodology
+
+**100K-document corpus**
+
+**Exact brute-force oracle**
+
+**Recall measured independently from latency**
+
+### Python
+
+```python
+from swiftvec import SwiftVec
+
+db = SwiftVec()
+
+db.add_batch(
+    ["doc-1", "doc-2"],
+    [
+        "Vector search by meaning",
+        "Photosynthesis converts sunlight"
+    ],
+    metadatas=[
+        {"topic": "ir"},
+        {"topic": "bio"}
+    ]
+)
+
+results = db.search(
+    "how does fast similarity search work",
+    top_k=3
+)
+```
+
+---
+
+## 🤖 Quantum Lens SmartSQL Agent
+
+<p align="left">
+  <a href="https://github.com/PavanTejaAI/quantum-lens-SmartSQL-Agent">
+    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="SmartSQL Agent repository" />
+  </a>
+</p>
+
+**Python · LangChain · SQLAlchemy · FastAPI**
+
+An autonomous text-to-SQL agent that converts natural language into executable database queries.
+
+```mermaid
+flowchart LR
+    Q[Natural Language] --> A[SQL Agent]
+
+    A --> S[Schema Inspection]
+    S --> G[SQL Generation]
+
+    G --> X[SQL Execution]
+    X --> V{Valid?}
+
+    V -->|Yes| R[Structured Result]
+    V -->|No| C[Self Correction]
+
+    C --> G
+```
+
+### Capabilities
+
+**Natural-language database querying**
+
+**Schema inspection**
+
+**SQL generation**
+
+**SQL execution**
+
+**Join correction**
+
+**Syntax correction**
+
+**Self-correction loops**
+
+**SQLAlchemy integration**
+
+**FastAPI backend**
+
+**Structured JSON responses**
+
+**JWT-based multi-tenancy**
+
+---
+
+## 🤖 AutoML Orchestrator
+
+<p align="left">
+  <a href="https://github.com/PavanTejaAI/automl-orchestrator">
+    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="AutoML Orchestrator repository" />
+  </a>
+</p>
+
+A multi-agent AutoML workflow designed to automate the path from dataset understanding to experimentation and model development.
+
+**Dataset analysis**
+
+**Model selection**
+
+**Training orchestration**
+
+**Agent-based experimentation**
+
+**Automated ML workflows**
+
+---
+
+## 🗺️ Multimodal Routing Engine
+
+<p align="left">
+  <a href="https://github.com/PavanTejaAI/Multimodal-Routing-Engine">
+    <img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="Multimodal Routing Engine repository" />
+  </a>
+</p>
+
+**OpenStreetMap · GTFS · Graph Algorithms**
+
+A routing engine exploring a unified representation of road and public-transit networks.
+
+```mermaid
+flowchart LR
+    O[OpenStreetMap] --> R[Road Network]
+    G[GTFS] --> T[Transit Network]
+
+    R --> U[Unified Graph]
+    T --> U
+
+    U --> E[Routing Engine]
+    E --> Q[Route]
+```
+
+**Graph construction**
+
+**Road networks**
+
+**Transit networks**
+
+**Unified graph representation**
+
+**Low-latency routing**
+
+---
+
+# Technology Stack
+
+## Languages
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,rust,typescript,javascript,nodejs,cpp&perline=6" alt="Programming languages" />
+</p>
+
+`Python` `Rust` `TypeScript` `JavaScript` `Node.js` `C++` `SQL`
+
+---
+
+## Generative AI
+
+<p align="left">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/MCP-5B21B6?style=flat-square" />
+  <img src="https://img.shields.io/badge/CodeAct-312E81?style=flat-square" />
+  <img src="https://img.shields.io/badge/Function%20Calling-4C1D95?style=flat-square" />
+</p>
+
+`LLMs` `RAG` `Agentic AI` `LangChain` `LangGraph` `MCP` `CodeAct` `Function Calling` `Prompt Engineering` `LoRA` `QLoRA`
+
+---
+
+## Retrieval and Search
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Vespa-111827?style=flat-square&logo=vespa&logoColor=white" />
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
+  <img src="https://img.shields.io/badge/FalkorDB-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/Weaviate-FF5C5C?style=flat-square" />
+  <img src="https://img.shields.io/badge/LanceDB-111827?style=flat-square" />
+</p>
+
+`Vespa` `FalkorDB` `Neo4j` `FAISS` `Weaviate` `LanceDB` `HNSW` `Embeddings` `BM25` `Dense Retrieval` `Hybrid Search` `RRF` `Binary Quantization`
+
+---
+
+## Machine Learning and Deep Learning
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=3" alt="Machine learning stack" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+</p>
+
+`PyTorch` `TensorFlow` `Scikit-learn` `Hugging Face Transformers` `NumPy` `Pandas`
+
+---
+
+## Inference and Model Serving
+
+<p align="left">
+  <img src="https://img.shields.io/badge/vLLM-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Triton-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/llama.cpp-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/whisper.cpp-111827?style=flat-square" />
+</p>
+
+`vLLM` `Triton Inference Server` `ONNX Runtime` `TensorRT` `llama.cpp` `whisper.cpp` `FP8` `KV Cache` `Quantization` `Model Optimization`
+
+---
+
+## Computer Vision and Voice AI
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=opencv&perline=1" alt="OpenCV" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SCRFD-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Whisper-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/LiveKit-111827?style=flat-square&logo=livekit&logoColor=white" />
+</p>
+
+`SCRFD` `OpenCV` `MediaPipe` `Face Recognition` `Speech-to-Text` `Speaker Diarization` `Speaker Verification` `Speech Enhancement` `Source Separation` `LiveKit Agents`
+
+---
+
+## Backend and APIs
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,redis,mongodb,mysql&perline=6" alt="Backend stack" />
+</p>
+
+`FastAPI` `REST APIs` `WebSockets` `SSE` `Redis` `MongoDB` `MySQL` `Node.js` `Express`
+
+---
+
+## Cloud and Infrastructure
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,linux&perline=5" alt="Cloud and infrastructure" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/ECS-FF9900?style=flat-square&logo=amazonecs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
+  <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white" />
+  <img src="https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+</p>
+
+`AWS` `GCP` `ECS` `EC2` `Lambda` `SQS` `S3` `ECR` `Vertex AI` `Docker` `Kubernetes` `Linux` `CI/CD`
+
+---
+
+## Observability and Engineering
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Loki-111827?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white" />
+</p>
+
+`Prometheus` `Grafana` `Loki` `Git` `CI/CD` `Containerized Deployments` `Monitoring` `Production Operations`
+
+---
+
+# Engineering Principles
+
+### Measure First
+
+**Latency · Throughput · Recall · Accuracy · Memory · GPU Utilization · Cost**
+
+### Optimize the Bottleneck
+
+**Quantization · Batching · Caching · Reranking · SIMD · Efficient Indexing · Local Inference**
+
+### Retrieval Is a System
+
+```text
+Ingestion
+   ↓
+Chunking
+   ↓
+Indexing
+   ↓
+Retrieval
+   ↓
+Filtering
+   ↓
+Reranking
+   ↓
+Fusion
+   ↓
+Evaluation
+```
+
+### Production Means Failure Handling
+
+**Timeouts · Retries · Fallbacks · Isolation · Security · Observability · Rollbacks · Cost Controls**
+
+### Reproducibility Matters
+
+**Benchmarks over opinions**
+
+**Evaluation over demos**
+
+**Measured trade-offs over hype**
+
+---
+
+# Experience
+
+| Organization                      | Role                      | Period              |
+| :-------------------------------- | :------------------------ | :------------------ |
+| **VE The Intent Company**         | AI Engineer               | Aug 2024 - Present  |
+| **Sankalpa Projects Consultancy** | Software Developer Intern | Jul 2023 - Jan 2024 |
+| **Ranvi Technologies**            | Software Developer Intern | Feb 2023 - Jul 2023 |
+
+---
+
+# Education
+
+## Malla Reddy College of Engineering & Technology
+
+**B.Tech, Computer Science & Engineering, Data Science**
+
+2021 - 2024 · Hyderabad, India
+
+`Machine Learning` `Deep Learning` `NLP` `Data Mining` `Big Data Analytics` `DBMS` `Data Structures & Algorithms`
+
+## Madhira Institute of Technology & Sciences
+
+**Diploma, Mechanical Engineering**
+
+2018 - 2021
+
+---
+
+# Current Focus
+
+### Agentic AI
+
+`MCP` `Tool Use` `CodeAct` `Multi-Agent Systems` `Planning` `Orchestration` `Long-term Memory`
+
+### Retrieval
+
+`RAG` `Vector Search` `Graph Retrieval` `Hybrid Search` `Quantization` `Reranking` `Retrieval Evaluation`
+
+### Inference
+
+`GPU Serving` `Quantization` `Batching` `KV Cache Optimization` `Low-latency Inference`
+
+### On-device AI
+
+`Local LLMs` `Private Inference` `On-device Retrieval` `SIMD` `Efficient Local Compute`
+
+---
+
+# The Problem I Like Working On
+
+```text
+                 AI Applications
+                        │
+                        ▼
+                 More Intelligent
+                        │
+                        ▼
+                    More Useful
+                        │
+          ┌─────────────┼─────────────┐
+          ▼             ▼             ▼
+        Faster        Cheaper       Private
+          │             │             │
+          └─────────────┼─────────────┘
+                        ▼
+                    Reliable
+                        │
+                        ▼
+                  Production Scale
+```
+
+> **How do we make AI systems faster, cheaper, more reliable, more accurate and more private while keeping them practical to operate?**
+
+That is the class of problems I want to keep solving.
+
+---
+
+# GitHub Activity
+
+<p align="left">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=PavanTejaAI&show_icons=true&hide_border=true&theme=transparent&title_color=A78BFA&icon_color=8B5CF6&text_color=D4D4D8&bg_color=00000000"
+    height="170"
+    alt="GitHub statistics"
+  />
+</p>
+
+<p align="left">
+  <img
+    src="https://streak-stats.demolab.com?user=PavanTejaAI&theme=transparent&hide_border=true&background=00000000&stroke=6D28D9&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=D4D4D8&currStreakNum=D4D4D8&dates=D4D4D8"
+    height="170"
+    alt="GitHub streak"
+  />
+</p>
+
+### Contribution Graph
+
+<p align="left">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/PavanTejaAI/PavanTejaAI/output/github-snake.svg"
+      alt="GitHub contribution snake"
+    />
+  </picture>
+</p>
+
+---
+
+# Connect
+
+<p align="left">
+  <a href="mailto:07pavanteja@gmail.com">
+    <img src="https://img.shields.io/badge/Email-07pavanteja%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/pavan-teja">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/PavanTejaAI">
+    <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+<p align="left">
+  <strong>Building AI systems where intelligence meets engineering.</strong>
+</p>
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:312E81,100:080B14&height=120&section=footer"
+    width="100%"
+    alt=""
+  />
+</p>
